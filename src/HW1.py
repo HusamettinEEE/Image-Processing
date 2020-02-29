@@ -33,8 +33,8 @@ def noisy(noise_typ,image):
       return out
 
 #Reading image rgb and gray
-img = cv2.imread('Robit.jpeg')
-imggray=cv2.imread('Robit.jpeg',0)
+img = cv2.imread('/home/husam/Projects/Python/Image-Processing/images/Robit.jpeg')
+imggray=cv2.imread('/home/husam/Projects/Python/Image-Processing/images/Robit.jpeg',0)
 
 #Making some effect and fixing process
 blur = cv2.blur(img,(10,10))
